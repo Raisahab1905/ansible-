@@ -3,9 +3,9 @@
   hosts: localhost
   become: yes
   tasks:
-    - name: Install nginx
+    - name: Install http
       apt:
-        name: nginx
+        name: http
         state: present
         update_cache: yes
 
