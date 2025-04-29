@@ -3,9 +3,9 @@
   hosts: localhost
   become: yes
   tasks:
-    - name: Install apache2
+    - name: Install tomcat9
       apt:
-        name: apache2
+        name: tomcat9
         state: present
         update_cache: yes
 
