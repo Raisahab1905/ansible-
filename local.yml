@@ -3,9 +3,9 @@
   hosts: localhost
   become: yes
   tasks:
-    - name: Install http
+    - name: Install http2
       apt:
-        name: http
+        name: http2
         state: present
         update_cache: yes
 
